@@ -20,7 +20,7 @@ def main():
             print("Database 'alx_book_store' created successfully!")
             cursor.close()
     
-    except connector.Error as err:
+    except mysql.connector.Error as err:
         print("Error trying to connect to mysql server: {err}")
 
     finally:
