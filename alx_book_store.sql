@@ -32,9 +32,7 @@ CREATE TABLE Orders (
 	order_id INT PRIMARY KEY,
 	customer_id INT,
 	order_date DATE,
-	CONSTRAINT foreignkey_orders_customers
-	FOREIGN KEY (customer_id)
-	REFERENCES Customers(customer_id)
+	CONSTRAINT foreignkey_orders_customers FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 );
 
 -- Creates the Order Details table.
@@ -43,10 +41,6 @@ CREATE TABLE Order_Details (
 	order_id INT,
 	book_id INT,
 	quantity DOUBLE,
-	CONSTRAINT foreignkey_orderdetails_orders
-	FOREIGN KEY (order_id)
-	REFERENCES Orders(order_id),
-	CONSTRAINT foreignkey_orderdetails_books
-	FOREIGN KEY (book_id)
-	REFERENCES Books(book_id)
+	CONSTRAINT foreignkey_orderdetails_orders FOREIGN KEY (order_id) REFERENCES Orders(order_id),
+	CONSTRAINT foreignkey_orderdetails_books FOREIGN KEY (book_id) REFERENCES Books(book_id)
 );
