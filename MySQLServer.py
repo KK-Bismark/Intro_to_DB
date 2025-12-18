@@ -1,5 +1,6 @@
 # A simple python script that creates the database alx_book_store in
 # your MySQL server.
+# Author: Kete Bismark Kwaku (KK-Bismark)
 
 import mysql.connector
 

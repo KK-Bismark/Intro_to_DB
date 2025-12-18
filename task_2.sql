@@ -1,5 +1,6 @@
 -- A script that creates all the tables below in alx_book_store in your
 -- MySQL server.
+-- Author: Kete Bismark Kwaku (KK-Bismark)
 
 
 -- -- Creates the Authors table.

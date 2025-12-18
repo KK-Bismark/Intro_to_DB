@@ -1,6 +1,9 @@
 -- Designing a MySQL database for an online bookstore.
 -- The database should store information about books,
 -- authors, customers, orders, and order details.
+-- Author: Kete Bismark Kwaku (KK-Bismark)
+
+
 
 -- Creates the database.
 CREATE DATABASE IF NOT EXISTS alx_book_store;

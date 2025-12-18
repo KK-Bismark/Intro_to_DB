@@ -1,6 +1,6 @@
 -- A script that prints the full description of the table books from the
 -- database alx_book_store in your MySQL server.
-
+-- Author: Kete Bismark Kwaku (KK-Bismark)
 SELECT
 	COLUMN_NAME AS 'Column',
 	COLUMN_TYPE AS 'Type',
